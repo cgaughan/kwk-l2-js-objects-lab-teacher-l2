@@ -7,5 +7,14 @@ function updateDriverWithKeyAndValue(driver, key, value) {
   return hateObjects
 };
 
+function updateDriverWithKeyAndValue(driver, key, value) {
+  const newPair = {
+    name: "Sam",
+    address: "11 Broadway"
+  }
+  newPair[key] = value;
+  newPair.name;
+  newPair.address;
+};
 
-//driver.address;
+

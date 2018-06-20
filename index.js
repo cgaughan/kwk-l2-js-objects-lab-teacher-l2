@@ -6,9 +6,15 @@ function updateDriverWithKeyAndValue(driver, key, value) {
   //ex of key and value => name: "Caroline"
   hateObjects = Object.assign({}, driver, newPair);
   return hateObjects
-};
+}
 
 function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
   driver[key] = value;
   return driver
+}
+
+function deleteFromDriverByKey(driver, key) {
+  const newDriver = {};
+  newDriver[key] = value;
+  delete newDriver.key
 }

@@ -1,18 +1,12 @@
 const driver = {driver:"driver"}
 
-//function updateDriverWithKeyAndValue(driver, key, value) {
-  //const newPair = {};
-  //newPair[key] = value;
-  //hateObjects = Object.assign({}, driver, newPair);
-  //return hateObjects
-//};
-
 function updateDriverWithKeyAndValue(driver, key, value) {
-  const newPair = {
-    name: "Sam",
-    address: "11 Broadway"
-  }
+  const newPair = {};
   newPair[key] = value;
-  newPair.name;
-  newPair.address;
+  hateObjects = Object.assign({}, driver, newPair);
+  return hateObjects
 };
+
+function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
+
+}
